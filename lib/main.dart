@@ -4,4 +4,4 @@ void main() {
   runApp(MyApp());
 }
 
-clacc
+class

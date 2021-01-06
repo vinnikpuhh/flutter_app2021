@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+import 'package:flutter_app2021/materials/icon_top_bar_icons.dart';
 
 class TopBar extends StatelessWidget {
   @override
@@ -11,27 +11,32 @@ class TopBar extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
-              FloatingActionButton(
-                highlightElevation: 25,
-                onPressed: () {},
-                child: SvgPicture.asset('assets/images/svg_files/AllEat.svg'),
-                backgroundColor: Colors.grey[200],
+              SizedBox(width: 5,),
+              Column(
+                children: [
+                  IconButton(icon: Icon(IconTopBar.all), onPressed: () {}),
+                  Text('Всё'),
+                ],
               ),
-              FloatingActionButton(
-                onPressed: () {},
-                child: SvgPicture.asset('assets/images/svg_files/PizzaEat.svg'),
-                backgroundColor: Colors.grey[200],
+              Column(
+                children: [
+                  IconButton(icon: Icon(IconTopBar.pizza), onPressed: () {}),
+                  Text('Пицца'),
+                ],
               ),
-              FloatingActionButton(
-                onPressed: () {},
-                child: SvgPicture.asset('assets/images/svg_files/KebabEat.svg'),
-                backgroundColor: Colors.grey[200],
+              Column(
+                children: [
+                  IconButton(icon: Icon(IconTopBar.kebab), onPressed: () {}),
+                  Text('Кебаб'),
+                ],
               ),
-              FloatingActionButton(
-                onPressed: () {},
-                child: SvgPicture.asset('assets/images/svg_files/BurgerEat.svg'),
-                backgroundColor: Colors.grey[200],
+              Column(
+                children: [
+                  IconButton(icon: Icon(IconTopBar.burger), onPressed: () {}),
+                  Text('Бургер'),
+                ],
               ),
+              SizedBox(width: 5,),
             ],
           ),
         ],

@@ -1,0 +1,22 @@
+{
+  "name": "IconMarket",
+  "css_prefix_text": "",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "13a49a07f56790c4da941d505aa378d8",
+      "css": "chevron_left",
+      "code": 59392,
+      "src": "material"
+    },
+    {
+      "uid": "53d20a593b610c9cc648f101ebcdc73f",
+      "css": "add_shopping_cart",
+      "code": 59394,
+      "src": "material"
+    }
+  ]
+}

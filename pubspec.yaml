@@ -71,9 +71,12 @@ flutter:
 #     - asset: fonts/Schyler-Italic.ttf
 #        style: italic
   fonts:
-    - family: CustomIcon
+    - family: IconTopBar
       fonts:
-      - asset: assets/fonts/CustomIcon.ttf
+      - asset: assets/fonts/IconTopBar.ttf
+    - family: IconMarket
+      fonts:
+      - asset: assets/fonts/IconMarket.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

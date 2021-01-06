@@ -144,6 +144,9 @@ class PitEater extends StatelessWidget{
               ),
             ),
           ),
+          SizedBox(
+            height: 15.0,
+          ),
         ],
       ),
     );

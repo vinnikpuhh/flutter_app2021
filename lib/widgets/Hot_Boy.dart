@@ -50,7 +50,7 @@ class HotBoy extends StatelessWidget{
                                 children: [
                                   Image(
                                     image: AssetImage(
-                                        'assets/Images/export/Zvezda.png'),
+                                        'assets/images/png_files/Zvezda.png'),
                                   ),
                                   RichText(
                                     text: TextSpan(
@@ -143,6 +143,9 @@ class HotBoy extends StatelessWidget{
                 ],
               ),
             ),
+          ),
+          SizedBox(
+            height: 15.0,
           ),
         ],
       ),

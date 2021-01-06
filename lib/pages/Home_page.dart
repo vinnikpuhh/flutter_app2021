@@ -11,13 +11,14 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.grey[500],
+        backgroundColor: Colors.grey[200],
       ),
       drawer: MenuSilentsBar(),
-      backgroundColor: Colors.grey[500],
+      backgroundColor: Colors.grey[200],
       body: ListView(
+
         children: [
-          // TopBar(),
+          TopBar(),
           MargoMarket(),
           HotBoy(),
           CoolMia(),

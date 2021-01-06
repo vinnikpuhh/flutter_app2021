@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-class MargoMarket extends StatelessWidget{
-
+class MargoMarket extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -50,7 +49,7 @@ class MargoMarket extends StatelessWidget{
                                 children: [
                                   Image(
                                     image: AssetImage(
-                                        'assets/Images/export/Zvezda.png'),
+                                        'assets/images/png_files/Zvezda.png'),
                                   ),
                                   RichText(
                                     text: TextSpan(
@@ -65,8 +64,7 @@ class MargoMarket extends StatelessWidget{
                                         TextSpan(
                                             text: '(100+)',
                                             style: TextStyle(
-                                                fontWeight:
-                                                FontWeight.w300)),
+                                                fontWeight: FontWeight.w300)),
                                       ],
                                     ),
                                   )
@@ -91,8 +89,8 @@ class MargoMarket extends StatelessWidget{
                                 children: <TextSpan>[
                                   TextSpan(
                                     text: '(мин)',
-                                    style: TextStyle(
-                                        fontWeight: FontWeight.w300),
+                                    style:
+                                        TextStyle(fontWeight: FontWeight.w300),
                                   ),
                                 ],
                               ),
@@ -143,6 +141,9 @@ class MargoMarket extends StatelessWidget{
                 ],
               ),
             ),
+          ),
+          SizedBox(
+            height: 15.0,
           ),
         ],
       ),
